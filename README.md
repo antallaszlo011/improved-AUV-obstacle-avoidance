@@ -1,13 +1,16 @@
-# improved-AUV-obstacle-avoidance
+# Improved AI-based Obstacle Avoidance for Autonomous Underwater Vehicles
 
 [TODO]: This repository will contain the code implementation, the neural network itself, and some further information on how to set up and run the AI-based controller for Autonomous Underwater Vehicles (AUVs).
 
+[TODO]: Some short description of this repository / link to published paper / aXiv version
 
-# Short title of this repository comes here
+## Setup (tested under Ubuntu 20.04)
 
-Some short description of this repository / link to published paper / aXiv version
+### Installing the [LSTS Neptus Command & Control Interface](https://github.com/LSTS/neptus)
 
-## Setup
+
+
+
 
 - system requirements / system info already tested
 - LSTS DUNE
@@ -17,3 +20,6 @@ Some short description of this repository / link to published paper / aXiv versi
 - Training scripts
 - Running simulated missions with the NN controller
 - Share info on verification of the controller / properties / available tools
+
+
+
