@@ -37,8 +37,31 @@ git clone https://github.com/LSTS/dune.git
 cd dune && mkdir build && cd build && cmake .. && make -j4
 ```
 
+### Run a simple simulated mission
+
+1. Start Neptus:
+```
+cd neptus && ./neptus
+```
+
+2. Start dune:
+```
+cd dune && ./dune -c lauv-simulator-1 -p Simulation
+```
+
+3. Wait until the `lauv-simulator-1` simulated LAUV appears in Neptus.
+
+4. In the top right dropdown, select `lauv-simulator-1`.
+
+5. Upload the plan `plan1` using the blue button under the dropdown.
+
+6. Run the simulated mission using the green button on the right of the blue one.
+
+7. Following this LAUV should execute the planned simulated mission.
+
+### [TODO]: Integrating the neural network controller
+
 <!--
-- Instructions on how to run a simulated mission
 - ONNX file of the NN controller
 - Training scripts
 - Running simulated missions with the NN controller
