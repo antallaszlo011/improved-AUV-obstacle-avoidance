@@ -6,6 +6,13 @@
 
 ## Setup (tested under Ubuntu 20.04)
 
+### System requirements
+
+- 2 GB available RAM memory
+- Intel core i3 or better CPU
+- 512 MB of hard drive space
+- Ubuntu 20.04 operating system
+
 ### Install the [LSTS Neptus Command & Control Interface](https://github.com/LSTS/neptus)
 
 1. Clone the public, open-source repository from GitHub:
@@ -30,15 +37,13 @@ git clone https://github.com/LSTS/dune.git
 cd dune && mkdir build && cd build && cmake .. && make -j4
 ```
 
-- system requirements / system info already tested
-- LSTS DUNE
-- LSTS Neptus
+<!--
 - Instructions on how to run a simulated mission
 - ONNX file of the NN controller
 - Training scripts
 - Running simulated missions with the NN controller
 - Share info on verification of the controller / properties / available tools
-
+-->
 
 # Acknowledgements
 
